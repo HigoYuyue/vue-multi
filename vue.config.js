@@ -29,7 +29,6 @@ let page = function() {
   });
   return obj;
 };
-console.log(page());
 module.exports = {
   publicPath: '/', // 官方要求修改路径在这里做更改，默认是根目录下，可以自行配置
   outputDir: 'dist', //也可加标识，动态打包到相关文件夹
